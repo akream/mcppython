@@ -34,15 +34,6 @@ async def single_cat_fact() -> str:
     return f"Hi! {data['fact']}"
 
 
-@mcp.tool()
-async def subscribe_to_cat_facts() -> str:
-    """Subscribe to a stream of cat facts that are sent every 10 seconds."""
-    # This function would normally set up a subscription stream
-    # In an MCP server, this would be handled differently in a real implementation
-    # This is a placeholder that explains what would happen
-    return "You've subscribed to cat facts! You'll receive a new cat fact every 10 seconds."
-
-
 if __name__ == "__main__":
     # Initialize and run the server
     mcp.run(transport="sse")
