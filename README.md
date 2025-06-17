@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/akream-mcppython-badge.png)](https://mseep.ai/app/akream-mcppython)
+
 # Python MCP Cat Facts
 
 A FastAPI server that implements the Model Context Protocol (MCP) using Server-Sent Events (SSE) transport to provide cat facts.
